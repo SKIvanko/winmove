@@ -66,8 +66,8 @@ const buttons = [
                 </button>
             </div>
 
-            <p class="mt-[20px] text-[15px] text-[#CFCFCF] leading-4">Lorem ipsum dolor sit amet consetur sagittis dignissim st.</p>
-            <p class="mt-[7px] inline-block text-[15px] text-[#707173] leading-4">
+            <p class="mt-[20px] text-[15px] leading-4 text-[#CFCFCF]">Lorem ipsum dolor sit amet consetur sagittis dignissim st.</p>
+            <p class="mt-[7px] inline-block text-[15px] leading-4 text-[#707173]">
                 Lorem ipsum dolor sit amet consectetur. Et nulla erat fringilla dignissim tristique sit egestas egestas.
                 <a class="inline-flex items-center gap-1 text-[15px] text-[#CFCFCF]">
                     <span>Подробнее</span>

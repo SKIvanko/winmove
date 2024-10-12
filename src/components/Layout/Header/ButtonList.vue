@@ -58,7 +58,7 @@ const isShowPopupNotifications = ref(false);
             <Teleport to="#app">
                 <PopupsNotificationsIndex
                     v-click-outside="() => (isShowPopupNotifications = false)"
-                    class="animate__animated animate__fadeIn fixed bottom-0 right-0 top-[65px] z-[999] w-[300px] bg-[#0D0E11] md:top-[77px] 2xl:top-[90px]"
+                    class="animate__animated animate__fadeIn fixed bottom-0 right-0 top-[65px] z-[999] w-[300px] bg-[#0D0E11] md:top-[77px] xl:w-[342px] 2xl:top-[90px] 2xl:w-[300px]"
                     v-if="isShowPopupNotifications"
                     @close="isShowPopupNotifications = false"
                 />

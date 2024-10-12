@@ -33,7 +33,7 @@ const handleOutsideChat = () => {
 
     <div class="flex pt-[65px] md:pt-[77px] lg:h-full 2xl:pt-[90px]">
         <LayoutSidebarIndex
-            class="fixed bottom-[88px] left-2.5 top-[75px] z-[999] transition-all duration-300 md:top-[77px] xl:bottom-0 xl:left-0 2xl:top-[90px]"
+            class="fixed bottom-[88px] left-2.5 top-[75px] z-[999] transition-all duration-700 md:top-[77px] xl:bottom-0 xl:left-0 2xl:top-[90px]"
             :class="[
                 { 'translate-x-[-120%]': !isShowSidebar },
                 { 'translate-x-0': isShowSidebar },
@@ -56,7 +56,7 @@ const handleOutsideChat = () => {
 
         <LayoutChatIndex
             v-click-outside="handleOutsideChat"
-            class="fixed bottom-[84px] right-2.5 top-[70px] z-[998] transition-all duration-300 md:top-[77px] xl:bottom-0 xl:right-0 xl:w-[342px] 2xl:top-[90px] 2xl:w-[300px]"
+            class="fixed bottom-[84px] right-2.5 top-[70px] z-[998] transition-all duration-700 md:top-[77px] xl:bottom-0 xl:right-0 xl:w-[342px] 2xl:top-[90px] 2xl:w-[300px]"
             :class="[{ 'translate-x-[120%]': !isShowChat }, { 'translate-x-0': isShowChat }]"
             @toggle-chat="isShowChat = !isShowChat"
         />
@@ -78,7 +78,7 @@ const handleOutsideChat = () => {
 
     <ModalsNotificationsIndex
         v-model="isShowModalNotification"
-        class="flex items-end justify-center md:items-center"
+        class="flex items-end justify-center"
         content-class="md:mx-auto left-[15px] fixed md:relative right-[15px] md:w-fit md:left-none md:right-none"
         @close="isShowModalNotification = false"
     />

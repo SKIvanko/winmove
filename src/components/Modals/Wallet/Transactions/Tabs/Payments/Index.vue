@@ -120,7 +120,7 @@ const rows = [
 
 <template>
     <div class="overflow-y-auto md:h-[554px] md:pr-[15px]">
-        <UIBannerEmpty v-if="isEmpty" @click="isEmpty = false" title="Нет транзакции" />
+        <UIBannerEmpty class="w-full md:min-w-[calc(290px*2+10px)]" v-if="isEmpty" @click="isEmpty = false" title="Нет транзакции" />
 
         <div v-if="!isEmpty" @click="isEmpty = true" class="grid w-full grid-cols-1 gap-2.5 md:grid-cols-2">
             <ModulesTransactionCard class="min-w-[290px]" v-for="row in rows" :key="row.id" :row="row" />

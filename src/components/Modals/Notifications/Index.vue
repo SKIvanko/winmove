@@ -15,7 +15,7 @@ const options = ref({
     <VueFinalModal
         v-model="isOpen"
         overlay-class="bg-[#08090C]/[75%]"
-        :swipe-to-close="width < 1024 ? 'down' : 'none'"
+        swipe-to-close="down"
         :overlay-transition="options.overlayTransition"
         :content-transition="options.contentTransition"
     >
