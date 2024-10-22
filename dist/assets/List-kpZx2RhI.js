@@ -1,1 +1,0 @@
-import{_ as o,o as e,c as s,F as t,r as n,f as c,e as l}from"./index-wxYOfIMk.js";const _={},i={class:"flex gap-2.5 overflow-x-auto 2xl:grid 2xl:grid-cols-1"};function d(f,x){const r=c("PagesMainBetCard");return e(),s("div",i,[(e(),s(t,null,n(5,a=>l(r,{class:"w-[318px] shrink-0 2xl:w-full",key:a})),64))])}const m=o(_,[["render",d]]);export{m as default};

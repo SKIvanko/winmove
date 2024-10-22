@@ -5,7 +5,7 @@ import { createApp } from "vue";
 import { createVfm } from "vue-final-modal";
 import "vue-final-modal/style.css";
 import { createRouter, createWebHistory } from "vue-router";
-import { PerfectScrollbarPlugin } from 'vue3-perfect-scrollbar';
+import { PerfectScrollbarPlugin } from "vue3-perfect-scrollbar";
 import App from "./App.vue";
 import "./assets/font/style.css";
 import "./styles/main.scss";
